@@ -63,7 +63,7 @@
    
    body {
    
-   background-color: black;
+   background-color: white;
    
    
    }
@@ -166,10 +166,10 @@
     position:absolute;
    
    
-    -webkit-animation-name:             movefish;
+    -webkit-animation-name:   movefish;
    
    
-    -webkit-animation-duration:         21s;
+    -webkit-animation-duration:  18s;
    
    
     -webkit-animation-iteration-count:  infinite;
@@ -207,7 +207,7 @@
     -webkit-animation-name:             movefish;
    
    
-    -webkit-animation-duration:         17s;
+    -webkit-animation-duration:         15s;
    
    
     -webkit-animation-iteration-count:  infinite;
@@ -245,7 +245,7 @@
     -webkit-animation-name:             movefish3;
    
    
-    -webkit-animation-duration:         37s;
+    -webkit-animation-duration:         32s;
    
    
     -webkit-animation-iteration-count:  infinite;
@@ -285,10 +285,10 @@
     margin: auto;
    
    
-    max-width: 40%;
+    max-width: 50%;
    
    
-    max-height: 400px;
+    max-height: 500px;
    
    
    }
@@ -302,7 +302,7 @@
    ul ul li {
    
    
-    color: salmon;
+    color: grey;
    
    
    }
@@ -316,7 +316,7 @@
    #carousel {
    
    
-    height: 400px;
+    height: 500px;
    
    
    }
@@ -398,7 +398,7 @@
     -webkit-animation-name:             dostuff;
    
    
-    -webkit-animation-duration:         11s;
+    -webkit-animation-duration:         9s;
    
    
     -webkit-animation-iteration-count:  infinite;
@@ -648,8 +648,5 @@
       top: 100px;
     }
    }
-   {
-   "remove-empty-lines.allowedNumberOfEmptyLines": 0,// allow 0 in all files
-"[markdown]": {
-  "remove-empty-lines.allowedNumberOfEmptyLines": 1,// allow 1 in markdown files
-},
+   
+   

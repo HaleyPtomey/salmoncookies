@@ -179,7 +179,7 @@ new CookieStand('Tokyo', 3, 24, 1.2);
 
 new CookieStand('Paris', 3, 24, 1.2);
 
-new CookieStand('Lima', 3, 24, 1.2);
+new CookieStand('Tokyo', 3, 24, 1.2);
 
 
 
@@ -319,38 +319,6 @@ function makeFooterRow() {
 
 }
 
-
-
-
-
-
-
-(function renderTable() {
-
-
- makeHeaderRow();
-
-
- for(let i = 0; i < CookieStand.all.length; i++){
-
-
-   CookieStand.all[i].render();
-
-
- }
-
-
- makeFooterRow();
-
-
-})();
-
-
-
-
-
-
-
 const ocean = document.getElementById('ocean'),
 
 
@@ -387,18 +355,35 @@ for(let i = 0; i < waveCount; i++){
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
 ocean.appendChild(docFrag);
+
+
+
+
+
+(function renderTable() {
+
+
+ makeHeaderRow();
+
+
+ for(let i = 0; i < CookieStand.all.length; i++){
+
+
+   CookieStand.all[i].render();
+
+
+ }
+
+
+ makeFooterRow();
+
+
+})();
+
+
+
+
 
 
 
